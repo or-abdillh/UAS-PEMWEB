@@ -1,0 +1,73 @@
+.login-wrapper {
+    background: #FFFFFF;
+    width: 50%;
+    border-radius: 12px;
+    margin: 2rem auto;
+    overflow: hidden;
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, .25);
+}
+
+.login-wrapper .header {
+    padding: 1rem .75rem;
+    background: #172774;
+    color: white;
+    text-align: center;
+}
+
+.login-wrapper .content {
+    padding: 1rem 1.75rem;
+}
+
+.login-wrapper .content .form-input {
+    width: 100%;
+    margin-bottom: 1rem;
+    font-size: .75rem;
+}
+
+.login-wrapper .content .form-input label {
+    font-size: .75rem;
+    font-weight: 400;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: .25rem;
+}
+
+.login-wrapper .content .form-input input {
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid gray;
+    padding: .25rem;
+}
+
+
+.login-wrapper .content .form-input input::placeholder {
+    font-size: .75rem;
+    padding: .25rem;
+}
+
+.login-wrapper .content .btn-submit {
+    background: #5ec257;
+    color: white;
+    border-radius: 8px;
+    border: 1px solid gray;
+    padding: .2rem 1rem;
+    font-size: .85rem;
+    cursor: pointer;
+}
+
+.text-footer {
+    font-size: .65rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 40em) {
+    .login-wrapper {
+        width: 85%;
+    }
+} /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+
+@media only screen and (min-width: 64.063em) {
+    .login-wrapper {
+        width: 40%;
+    }
+} /* min-width 1025px, large screens */
