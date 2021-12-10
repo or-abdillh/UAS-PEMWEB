@@ -15,7 +15,7 @@
             <p>Login</p>
         </div>
         <div class="content">
-            <form action="">
+            <form action="../helper/login.php" method="post">
                 <div class="form-input">
                     <label for="username">Username</label>
                     <input type="text" name="username" placeholder="Input your username here">
@@ -25,9 +25,10 @@
                     <input type="password" name="password" placeholder="Input your username here">
                 </div>
                 <div class="form-input">
-                    <button type="submit" class="btn-submit">Login</button>
+                    <button type="submit" name="login" class="btn-submit">Login</button>
                 </div>
             </form>
+
             <p class="text-footer">
                 &copy; 2021 Oka Rajeb Abdillah
             </p>
