@@ -1,0 +1,25 @@
+{
+  "name": "uas-pemweb-20302022",
+  "version": "1.0.0",
+  "description": "Project Ujian Akhir Semester pada mata kuliah Pemrograman Web - NIM 20302022",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/or-abdillh/UAS-PEMWEB.git"
+  },
+  "keywords": [
+    "UAS",
+    "PHP",
+    "MYSQL",
+    "login"
+  ],
+  "author": "Oka R. Abdillah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/or-abdillh/UAS-PEMWEB/issues"
+  },
+  "homepage": "https://github.com/or-abdillh/UAS-PEMWEB#readme"
+}
